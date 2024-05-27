@@ -33,3 +33,7 @@ output "nat_gateway_id" {
 output "public_route_table_id" {
     value = aws_route_table.public.id
 }
+
+output "database_subnet_group_name" {
+    value = aws_db_subnet_group.default.name
+}
