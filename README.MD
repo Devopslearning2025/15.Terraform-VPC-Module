@@ -7,19 +7,19 @@ This module is developed for joindevops.com. We are creating following resources
 * VPC
 * Internet Gateway
 * Internet and VPC attachment
-* 2 Public Subnets.
-* 2 Private Subnes
+* 2 Publie Subnets
+* 2 Private Subnets
 * 2 Database Subnets
-* EIP
-* NAT Gateway
-* Public Route table
-* Private Route table
-* Database Route table
-* Route table and subnet associations
-* Routes in all tables
+* Elastic IP
+* Nat Gateway
+* Public Route Table
+* Private Route Table
+* Database Route Table
+* Route Table and subnet Associations
+* Routes in all route tables
 * Peering if required for user
-* Routes of peering in requestor and acceptor VPC.
-* Database sunet group
+* Routes of peering in requestor and acceptor VPC
+* Database Subnet Group
 
 ### Inputs
 * project_name (Required): User should mention their project name. Type is string.
